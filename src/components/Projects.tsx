@@ -25,7 +25,7 @@ export function Projects() {
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
       tech: ["React", "Tailwind CSS", "Vite"],
       github: "https://github.com/Alacoka",
-      live: "portifolio-alacoque.vercel.app"
+      live: ""
     }
   ];
 
