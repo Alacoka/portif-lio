@@ -16,8 +16,8 @@ export function Projects() {
       description: "Uma ferramenta colaborativa de gerenciamento de tarefas com atualizações em tempo real. (trabalhando em melhorias)",
       image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=800&q=80",
       tech: ["React", "Firebase", "Tailwind"],
-      github: "https://github.com/Alacoka/task_manager",
-      live: "https://task-manager-two-chi-29.vercel.app/"
+      github: "https://github.com/Alacoka/task_manager_new",
+      live: "https://task-manager-alacoka.vercel.app/"
     },
     {
       title: "Site Portfólio",
