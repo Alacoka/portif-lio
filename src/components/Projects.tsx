@@ -7,7 +7,7 @@ export function Projects() {
       title: "Plataforma E-commerce",
       description: "Uma plataforma de compras online completa com gerenciamento de estoque em tempo real.",
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80",
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["React", "Node.js"],
       github: "https://github.com/Alacoka/e-commerce",
       live: "https://e-commerce-tech-store.vercel.app/"
     },

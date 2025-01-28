@@ -32,13 +32,13 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold">Conecte-se</h3>
             <div className="mt-4 flex space-x-4">
-              <a href="https://github.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/Alacoka" className="text-gray-400 hover:text-white transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/kawaalacoque/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:contato@exemplo.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:kawaalacoque@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={24} />
               </a>
             </div>
