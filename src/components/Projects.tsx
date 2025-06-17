@@ -1,12 +1,16 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import img1 from '../img/e_commerce.jpg';
+import img2 from '../img/task.jpg';
+import img3 from '../img/profile.jpg';
+import img4 from '../img/stockly.jpg';
 
 export function Projects() {
   const projects = [
     {
       title: "Plataforma E-commerce",
       description: "Uma plataforma de compras online completa com gerenciamento de estoque em tempo real.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80",
+      image: img1,
       tech: ["React", "Node.js"],
       github: "https://github.com/Alacoka/e-commerce",
       live: "https://e-commerce-tech-store.vercel.app/"
@@ -14,7 +18,7 @@ export function Projects() {
     {
       title: "App de Gerenciamento de Tarefas",
       description: "Uma ferramenta colaborativa de gerenciamento de tarefas com atualizações em tempo real. (trabalhando em melhorias)",
-      image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=800&q=80",
+      image: img2,
       tech: ["React", "Firebase", "Tailwind"],
       github: "https://github.com/Alacoka/task_manager_new",
       live: "https://task-manager-alacoka.vercel.app/"
@@ -22,10 +26,18 @@ export function Projects() {
     {
       title: "Site Portfólio",
       description: "Um site portfólio moderno para apresentação de projetos e habilidades.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+      image: img3,
       tech: ["React", "Tailwind CSS", "Vite"],
+      github: "https://github.com/Alacoka/farmacia",
+      live: "https://portifolio-alacoque.vercel.app/"
+    },
+    {
+      title: "Stockly",
+      description: "Software gerenciador de estoque voltado para o ramo farmacêutico, controlando entradas e saídas de medicamentos, além de gerar relatórios.",
+      image: img4,
+      tech: ["React", "Tailwind CSS", "Vite", "Firebase"],
       github: "https://github.com/Alacoka",
-      live: ""
+      live: "https://stockly-iota-seven.vercel.app/"
     }
   ];
 
@@ -72,7 +84,7 @@ export function Projects() {
         </div>
 
         <div className="mt-16">
-          <p className="mt-4 text-lg text-center text-gray-600 dark:text-gray-300">Estamos trabalhando em novos projetos inovadores, em breve...</p>
+          <p className="mt-4 text-lg text-center text-gray-600 dark:text-gray-300">Sempre trabalhando em novos projetos inovadores, em breve...</p>
         </div>
       </div>
     </section>
