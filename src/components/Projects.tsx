@@ -1,24 +1,23 @@
-import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-import img1 from '../img/e_commerce.jpg';
-import img2 from '../img/task.jpg';
+// import img1 from '../img/e_commerce.jpg';
+import img5 from '../img/task.jpeg';
 import img3 from '../img/profile.jpg';
 import img4 from '../img/stockly.jpg';
 
 export function Projects() {
   const projects = [
-    {
-      title: "Plataforma E-commerce",
-      description: "Uma plataforma de compras online completa com gerenciamento de estoque em tempo real.",
-      image: img1,
-      tech: ["React", "Node.js"],
-      github: "https://github.com/Alacoka/e-commerce",
-      live: "https://e-commerce-tech-store.vercel.app/"
-    },
+    // {
+    //   title: "Plataforma E-commerce",
+    //   description: "Uma plataforma de compras online completa com gerenciamento de estoque em tempo real.",
+    //   image: img1,
+    //   tech: ["React", "Node.js"],
+    //   github: "https://github.com/Alacoka/e-commerce",
+    //   live: "https://e-commerce-tech-store.vercel.app/"
+    // },
     {
       title: "App de Gerenciamento de Tarefas",
-      description: "Uma ferramenta colaborativa de gerenciamento de tarefas com atualizações em tempo real. (trabalhando em melhorias)",
-      image: img2,
+      description: "Uma ferramenta colaborativa para gerenciamento de tarefas, sendo possível realizar o login com Google para salvar tarefas em núvem.",
+      image: img5,
       tech: ["React", "Firebase", "Tailwind"],
       github: "https://github.com/Alacoka/task_manager_new",
       live: "https://task-manager-alacoka.vercel.app/"
@@ -27,7 +26,7 @@ export function Projects() {
       title: "Site Portfólio",
       description: "Um site portfólio moderno para apresentação de projetos e habilidades.",
       image: img3,
-      tech: ["React", "Tailwind CSS", "Vite"],
+      tech: ["React", "Tailwind", "Vite"],
       github: "https://github.com/Alacoka/farmacia",
       live: "https://portifolio-alacoque.vercel.app/"
     },
@@ -35,7 +34,7 @@ export function Projects() {
       title: "Stockly",
       description: "Software gerenciador de estoque voltado para o ramo farmacêutico, controlando entradas e saídas de medicamentos, além de gerar relatórios.",
       image: img4,
-      tech: ["React", "Tailwind CSS", "Vite", "Firebase"],
+      tech: ["React", "Tailwind", "Firebase"],
       github: "https://github.com/Alacoka",
       live: "https://stockly-iota-seven.vercel.app/"
     }

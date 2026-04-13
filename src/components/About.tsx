@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code, Palette, Globe } from 'lucide-react';
 
 export function About() {
