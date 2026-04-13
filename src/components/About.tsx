@@ -1,4 +1,4 @@
-import { Code, Palette, Globe } from 'lucide-react';
+import { Code, Palette, Globe, Database } from 'lucide-react';
 
 export function About() {
   return (
@@ -18,28 +18,49 @@ export function About() {
             </div>
             <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-white">Desenvolvimento Frontend</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-300">
-              Criação de interfaces responsivas e interativas usando frameworks e ferramentas modernas.
+              Criação de interfaces de usuário responsivas e interativas utilizando as mais recentes tecnologias web.
             </p>
+            <div className="mt-6 flex flex-wrap gap-2">
+              {['React', 'Vue.js', 'Angular'].map((tech) => (
+                <span key={tech} className="px-3 py-1 text-sm font-medium bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300 rounded-full border border-purple-200 dark:border-purple-800/50">
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
 
           <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl transition-colors duration-200">
             <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
-              <Globe className="text-blue-600 dark:text-blue-400" size={24} />
+              <Code className="text-purple-600 dark:text-purple-400" size={24} />
             </div>
             <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-white">Desenvolvimento Backend</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-300">
-              Construção de aplicações escaláveis e APIs RESTful.
+              Desenvolvimento de aplicações robustas e escaláveis garantindo desempenho e segurança para o backend.
             </p>
+            <div className="mt-6 flex flex-wrap gap-2">
+              {['Node.js', 'Java', 'Python'].map((tech) => (
+                <span key={tech} className="px-3 py-1 text-sm font-medium bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300 rounded-full border border-purple-200 dark:border-purple-800/50">
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
 
           <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl transition-colors duration-200">
             <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center">
-              <Palette className="text-indigo-600 dark:text-indigo-400" size={24} />
+              <Database className="text-indigo-600 dark:text-indigo-400" size={24} />
             </div>
-            <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-white">Design UI/UX</h3>
+            <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-white">Banco de dados</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-300">
-              Design de experiências de usuário intuitivas e visualmente atraentes.
+              Experiência com bancos de dados relacionais e não relacionais para armazenamento eficiente de dados.
             </p>
+            <div className="mt-6 flex flex-wrap gap-2">
+              {['Firebase', 'MySQL', 'PostgreSQL'].map((tech) => (
+                <span key={tech} className="px-3 py-1 text-sm font-medium bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300 rounded-full border border-purple-200 dark:border-purple-800/50">
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>

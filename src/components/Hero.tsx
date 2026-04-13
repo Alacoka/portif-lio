@@ -13,7 +13,7 @@ export function Hero() {
               </span>
             </h1>
             <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-xl">
-              Transformando ideias em experiências digitais elegantes através de soluções web inovadoras.
+              Transformando ideias em experiências digitais elegantes através de soluções web inovadoras e funcionais.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
