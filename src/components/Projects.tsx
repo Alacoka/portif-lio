@@ -20,7 +20,8 @@ export function Projects() {
       image: img5,
       tech: ["React", "Firebase", "Tailwind"],
       github: "https://github.com/Alacoka/task_manager_new",
-      live: "https://task-manager-alacoka.vercel.app/"
+      live: "https://task-manager-alacoka.vercel.app/",
+      target: "_blank"
     },
     {
       title: "Site Portfólio",
@@ -28,7 +29,7 @@ export function Projects() {
       image: img3,
       tech: ["React", "Tailwind", "Vite"],
       github: "https://github.com/Alacoka/farmacia",
-      live: "https://portifolio-alacoque.vercel.app/"
+      live: "https://portifolio-alacoque.vercel.app/",
     },
     {
       title: "Stockly",
@@ -65,6 +66,7 @@ export function Projects() {
                   <a
                     href={project.github}
                     className="flex items-center text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                    target='_blank'
                   >
                     <Github size={20} className="mr-2" />
                     Código
@@ -72,6 +74,7 @@ export function Projects() {
                   <a
                     href={project.live}
                     className="flex items-center text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                    target='_blank'
                   >
                     <ExternalLink size={20} className="mr-2" />
                     Demo
