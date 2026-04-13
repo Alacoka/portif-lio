@@ -1,4 +1,4 @@
-import { Code, Palette, Globe, Database } from 'lucide-react';
+import { Code, Database } from 'lucide-react';
 
 export function About() {
   return (

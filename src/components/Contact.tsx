@@ -6,9 +6,6 @@ export function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Entre em Contato</h2>
-          <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">
-            Tem um projeto em mente? Vamos trabalhar juntos para dar vida às suas ideias.
-          </p>
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -33,13 +30,11 @@ export function Contact() {
           </div>
 
           <div className="flex flex-col items-center space-y-4">
-            <a href="https://www.google.com/maps?q=S%C3%A3o+Paulo,+SP" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center space-y-2">
-              <MapPin className="w-12 h-12 text-purple-600 dark:text-purple-400" />
-              <div className="text-center">
-                <h3 className="text-lg font-medium text-gray-900 dark:text-white">Localização</h3>
-                <p className="mt-1 text-gray-600 dark:text-gray-300">São Paulo, SP</p>
-              </div>
-            </a>
+            <MapPin className="w-12 h-12 text-purple-600 dark:text-purple-400" />
+            <div className="text-center">
+              <h3 className="text-lg font-medium text-gray-900 dark:text-white">Localização</h3>
+              <p className="mt-1 text-gray-600 dark:text-gray-300">São Paulo, SP</p>
+            </div>
           </div>
         </div>
       </div>
