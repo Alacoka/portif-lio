@@ -1,4 +1,4 @@
-import { Code, Database } from 'lucide-react';
+import { Code, Database, Terminal } from 'lucide-react';
 
 export function About() {
   return (
@@ -31,7 +31,7 @@ export function About() {
 
           <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl transition-colors duration-200">
             <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
-              <Code className="text-purple-600 dark:text-purple-400" size={24} />
+              <Terminal className="text-purple-600 dark:text-purple-400" size={24} />
             </div>
             <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-white">Desenvolvimento Backend</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-300">

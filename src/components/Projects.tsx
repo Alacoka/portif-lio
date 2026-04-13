@@ -25,7 +25,7 @@ export function Projects() {
     },
     {
       title: "Site Portfólio",
-      description: "Meu site portfólio pessoal, apresentando meus projetos, habilidades e experiência de forma elegante e responsiva. (Última atualização: 13/04/2026)",
+      description: ["Meu site portfólio pessoal, apresentando meus projetos, habilidades e experiência de forma elegante e responsiva.", <br />, "(Última atualização: 13/04/2026)"],
       image: img3,
       tech: ["React", "Tailwind", "Vite"],
       github: "https://github.com/Alacoka/farmacia",
