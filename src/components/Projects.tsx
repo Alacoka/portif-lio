@@ -1,19 +1,11 @@
 import { ExternalLink, Github } from 'lucide-react';
-// import img1 from '../img/e_commerce.jpg';
 import img5 from '../img/task.jpeg';
 import img3 from '../img/profile.jpg';
 import img4 from '../img/stockly.jpg';
+import img6 from '../img/descaba.jpg'
 
 export function Projects() {
   const projects = [
-    // {
-    //   title: "Plataforma E-commerce",
-    //   description: "Uma plataforma de compras online completa com gerenciamento de estoque em tempo real.",
-    //   image: img1,
-    //   tech: ["React", "Node.js"],
-    //   github: "https://github.com/Alacoka/e-commerce",
-    //   live: "https://e-commerce-tech-store.vercel.app/"
-    // },
     {
       title: "App de Gerenciamento de Tarefas",
       description: "Uma ferramenta colaborativa para gerenciamento de tarefas, sendo possível realizar o login com Google para salvar tarefas em núvem.",
@@ -32,12 +24,20 @@ export function Projects() {
       live: "https://portifolio-alacoque.vercel.app/",
     },
     {
-      title: "Stockly",
+      title: "Stockly (Projeto acadêmico TCC)",
       description: "Software gerenciador de estoque voltado para o ramo farmacêutico, controlando entradas e saídas de medicamentos, além de gerar relatórios.",
       image: img4,
       tech: ["React", "Tailwind", "Firebase"],
       github: "https://github.com/Alacoka",
       live: "https://stockly-iota-seven.vercel.app/"
+    },
+    {
+      title: "Descabageek",
+      description: "Plataforma dinâmica de conteúdo voltada para cultura pop e geek, integrada a um CMS headless para fácil gerenciamento de artigos e notícias.",
+      image: img6,
+      tech: ["Next.js", "Tailwind", "Firebase", "API REST"],
+      github: "https://github.com/Alacoka/descabageek-web",
+      live: "https://www.descabageek.com"
     }
   ];
 
